@@ -1,0 +1,55 @@
+{
+  "image_id": "CB1",
+  "quality_checks": {
+    "sharpness": {
+      "laplacian_variance": 19871.05958878297,
+      "status": "not_calibrated",
+      "action": "none"
+    },
+    "contrast": {
+      "status": "not_calibrated",
+      "affected_regions": [],
+      "action": "none"
+    },
+    "lighting": {
+      "status": "not_calibrated",
+      "underexposed": null,
+      "glare_suspected": null,
+      "shadow_regions": [],
+      "action": "none"
+    },
+    "rotation": {
+      "status": "measured_un_calibrated",
+      "correction_degrees_clockwise": -0.0,
+      "action": "none"
+    },
+    "perspective": {
+      "status": "not_calibrated",
+      "corners_detected": false,
+      "action": "none"
+    },
+    "framing": {
+      "status": "not_calibrated",
+      "capture_type": "unknown",
+      "crop_box_xyxy": null,
+      "cut_off_text_suspected": null,
+      "action": "none"
+    },
+    "resolution": {
+      "width_px": 356,
+      "height_px": 1600,
+      "estimated_text_height_px": null,
+      "status": "not_calibrated",
+      "action": "preserve_original_resolution"
+    }
+  },
+  "decision": {
+    "next_step": "measurement_only",
+    "retake_required": null,
+    "user_message": null
+  },
+  "output": {
+    "processed_image_path": null,
+    "actions_applied": []
+  }
+}
