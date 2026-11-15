@@ -1,0 +1,21 @@
+{
+  "image_id": "WhatsApp Image 2026-11-15 at 9.30.37 PM (1)",
+  "capture_type": "partial_bill",
+  "overview": {
+    "sharpness": "The bottom has less edge detail than the top. Text clarity is not yet confirmed.",
+    "contrast": "The middle has less light-to-dark variation than the top. Text readability is not yet confirmed.",
+    "lighting": "The bottom has less brightness than the top. This does not confirm shadows or glare.",
+    "rotation": "Tilt could not be estimated reliably.",
+    "perspective": "Full page corners were not found; camera distortion could not be assessed.",
+    "framing": "Part of a bill, as specified by you. Missing text and combined bill coverage have not been checked.",
+    "resolution": "1200 x 1600 pixels. Enough detail for reading small text has not been confirmed."
+  },
+  "summary": "Image measured successfully. Reading quality and need for a retake are not yet determined.",
+  "next_step": "Review the three photos together for overlapping text and missing bill sections.",
+  "retake_required": null,
+  "processing": {
+    "status": "Measurements and preview images saved; no image corrections applied.",
+    "processed_image_path": null,
+    "actions_applied": []
+  }
+}

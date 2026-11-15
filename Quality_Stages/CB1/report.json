@@ -1,54 +1,20 @@
 {
   "image_id": "CB1",
-  "quality_checks": {
-    "sharpness": {
-      "laplacian_variance": 19871.05958878297,
-      "status": "not_calibrated",
-      "action": "none"
-    },
-    "contrast": {
-      "status": "not_calibrated",
-      "affected_regions": [],
-      "action": "none"
-    },
-    "lighting": {
-      "status": "not_calibrated",
-      "underexposed": null,
-      "glare_suspected": null,
-      "shadow_regions": [],
-      "action": "none"
-    },
-    "rotation": {
-      "status": "measured_un_calibrated",
-      "correction_degrees_clockwise": -0.0,
-      "action": "none"
-    },
-    "perspective": {
-      "status": "not_calibrated",
-      "corners_detected": false,
-      "action": "none"
-    },
-    "framing": {
-      "status": "not_calibrated",
-      "capture_type": "unknown",
-      "crop_box_xyxy": null,
-      "cut_off_text_suspected": null,
-      "action": "none"
-    },
-    "resolution": {
-      "width_px": 356,
-      "height_px": 1600,
-      "estimated_text_height_px": null,
-      "status": "not_calibrated",
-      "action": "preserve_original_resolution"
-    }
+  "capture_type": "unknown",
+  "overview": {
+    "sharpness": "The top has less edge detail than the middle. Text clarity is not yet confirmed.",
+    "contrast": "The middle has less light-to-dark variation than the bottom. Text readability is not yet confirmed.",
+    "lighting": "The bottom has less brightness than the top. This does not confirm shadows or glare.",
+    "rotation": "Detected lines tilt about 0.0 degrees clockwise. Text orientation is unconfirmed.",
+    "perspective": "Full page corners were not found; camera distortion could not be assessed.",
+    "framing": "Full bill coverage and cut-off text have not been confirmed.",
+    "resolution": "356 x 1600 pixels. Enough detail for reading small text has not been confirmed."
   },
-  "decision": {
-    "next_step": "measurement_only",
-    "retake_required": null,
-    "user_message": null
-  },
-  "output": {
+  "summary": "Image measured successfully. Reading quality and need for a retake are not yet determined.",
+  "next_step": "Review the image for readable text and complete coverage.",
+  "retake_required": null,
+  "processing": {
+    "status": "Measurements and preview images saved; no image corrections applied.",
     "processed_image_path": null,
     "actions_applied": []
   }

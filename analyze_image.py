@@ -89,7 +89,45 @@ def save_image(path, pixels):
     buffer.tofile(path)
 
 
-def analyze(image_path, output_dir, overlap=.2, dark_cutoff=5, bright_cutoff=250):
+def image_overview(details, capture_type="unknown"):
+    """Plain-language observations; comparisons are within this image only."""
+    gm = details["global_measurements"]
+    regions = details["regional_measurements"]
+    available = {name: data for name, data in regions.items() if data.get("coordinates_xyxy")}
+    observations = {}
+    for key, label, metric_key in (
+        ("sharpness", "edge detail", None),
+        ("contrast", "light-to-dark variation", "grayscale_standard_deviation"),
+        ("lighting", "brightness", "median"),
+    ):
+        values = {name: (data[key] if metric_key is None else data[key][metric_key])["value"] for name, data in available.items()}
+        if values and max(values.values()) != min(values.values()):
+            low, high = min(values, key=values.get), max(values, key=values.get)
+            observations[key] = f"The {low} has less {label} than the {high}."
+        else:
+            observations[key] = f"No regional difference in {label} was measured." if values else "Image too small to compare regions."
+    observations["sharpness"] += " Text clarity is not yet confirmed."
+    observations["contrast"] += " Text readability is not yet confirmed."
+    observations["lighting"] += " This does not confirm shadows or glare."
+    angle = gm["rotation_skew"]["skew_angle"]["value"]
+    observations["rotation"] = "Tilt could not be estimated reliably." if angle is None else f"Detected lines tilt about {abs(angle):.1f} degrees {'clockwise' if angle >= 0 else 'counterclockwise'}. Text orientation is unconfirmed."
+    found = details["geometry"]["perspective"]["quadrilateral_corners"]["value"] is not None
+    observations["perspective"] = "A possible page outline was found; camera distortion is unconfirmed." if found else "Full page corners were not found; camera distortion could not be assessed."
+    observations["framing"] = "Part of a bill, as specified by you. Missing text and combined bill coverage have not been checked." if capture_type == "partial_bill" else "Full bill coverage and cut-off text have not been confirmed."
+    dims = details["image"]["decoded_dimensions"]
+    observations["resolution"] = f"{dims['width']} x {dims['height']} pixels. Enough detail for reading small text has not been confirmed."
+    return {
+        "image_id": Path(details["image"]["filename"]).stem,
+        "capture_type": capture_type,
+        "overview": observations,
+        "summary": "Image measured successfully. Reading quality and need for a retake are not yet determined.",
+        "next_step": "Review the three photos together for overlapping text and missing bill sections." if capture_type == "partial_bill" else "Review the image for readable text and complete coverage.",
+        "retake_required": None,
+        "processing": {"status": "Measurements and preview images saved; no image corrections applied.", "processed_image_path": None, "actions_applied": []},
+    }
+
+
+def analyze(image_path, output_dir, overlap=.2, dark_cutoff=5, bright_cutoff=250, capture_type="unknown"):
     if not 0 <= overlap < .5:
         raise ValueError("overlap must be >= 0 and < 0.5")
     if not 0 <= dark_cutoff <= 255 or not 0 <= bright_cutoff <= 255:
@@ -176,21 +214,7 @@ def analyze(image_path, output_dir, overlap=.2, dark_cutoff=5, bright_cutoff=250
         save_image(stage/"06_line_candidates_visualization.png",overlay)
         files.append("06_line_candidates_visualization.png")
     detailed_report["debug_outputs"]={"directory":str(stage),"visualizations_only":True,"files":files}
-    sharpness = detailed_report["global_measurements"]["sharpness"]["value"]
-    compact_report = {
-        "image_id": image_path.stem,
-        "quality_checks": {
-            "sharpness": {"laplacian_variance": sharpness, "status": "not_calibrated", "action": "none"},
-            "contrast": {"status": "not_calibrated", "affected_regions": [], "action": "none"},
-            "lighting": {"status": "not_calibrated", "underexposed": None, "glare_suspected": None, "shadow_regions": [], "action": "none"},
-            "rotation": {"status": "not_calibrated" if skew["value"] is None else "measured_un calibrated".replace(" ", "_"), "correction_degrees_clockwise": None if skew["value"] is None else -skew["value"], "action": "none"},
-            "perspective": {"status": "not_calibrated", "corners_detected": candidate is not None, "action": "none"},
-            "framing": {"status": "not_calibrated", "capture_type": "unknown", "crop_box_xyxy": None, "cut_off_text_suspected": None, "action": "none"},
-            "resolution": {"width_px": w, "height_px": h, "estimated_text_height_px": None, "status": "not_calibrated", "action": "preserve_original_resolution"},
-        },
-        "decision": {"next_step": "measurement_only", "retake_required": None, "user_message": None},
-        "output": {"processed_image_path": None, "actions_applied": []},
-    }
+    compact_report = image_overview(detailed_report, capture_type)
     (stage/"report.json").write_text(json.dumps(compact_report,indent=2,allow_nan=False),encoding="utf-8")
     (stage/"detailed_measurements.json").write_text(json.dumps(detailed_report,indent=2,allow_nan=False),encoding="utf-8")
     return compact_report, stage/"report.json"
@@ -204,13 +228,14 @@ def main():
     parser.add_argument("--overlap",type=float,default=.2)
     parser.add_argument("--dark-cutoff",type=int,default=5)
     parser.add_argument("--bright-cutoff",type=int,default=250)
+    parser.add_argument("--capture-type", choices=("unknown", "partial_bill", "full_bill"), default="unknown")
     args=parser.parse_args()
     try:
-        report,path=analyze(args.image,args.output_dir,args.overlap,args.dark_cutoff,args.bright_cutoff)
+        report,path=analyze(args.image,args.output_dir,args.overlap,args.dark_cutoff,args.bright_cutoff,args.capture_type)
     except (OSError,ValueError,cv2.error) as exc:
         parser.exit(1,f"Error: {exc}\n")
     print(f"Report: {path}")
-    print(f"Laplacian variance: {report['quality_checks']['sharpness']['laplacian_variance']:.2f}; dimensions: {report['quality_checks']['resolution']['width_px']}x{report['quality_checks']['resolution']['height_px']}; checks are not calibrated")
+    print(report["summary"])
 
 
 if __name__=="__main__":

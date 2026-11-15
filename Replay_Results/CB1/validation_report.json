@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "lookup_version": "ape_bill_v1",
+  "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+  "image": {
+    "width": 356,
+    "height": 1600,
+    "coordinate_convention": "Stored pixels; x right, y down; no EXIF rotation, document rotation or unwarping applied.",
+    "analysis_image": "analysis_input.png"
+  },
+  "ocr_settings": {
+    "device": "cpu",
+    "lang": "en",
+    "ocr_version": "PP-OCRv5",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "package_versions": {
+    "paddleocr": "3.3.1",
+    "paddlepaddle": "3.2.0",
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93"
+  },
+  "feature_completeness": {
+    "payment_summary": {
+      "complete": true,
+      "missing_fields": []
+    },
+    "consumption_summary": {
+      "complete": false,
+      "missing_fields": [
+        "units_consumed"
+      ]
+    }
+  },
+  "consumption_arithmetic": {
+    "status": "not_applicable",
+    "reason": "Requires all readings, explicit multiplier, and confirmed simple-difference billing assumptions."
+  },
+  "amount_reconciliation": {
+    "status": "not_applicable",
+    "reason": "Other charges, credits and adjustments are not fully modeled."
+  },
+  "review_items": [
+    {
+      "field": "units_consumed",
+      "action": "Compare label and nearby value with source photograph.",
+      "reason": "ambiguous_match"
+    }
+  ],
+  "retake_required": null,
+  "note": "Format validity is not OCR correctness. Missing fields may be outside this partial photo."
+}

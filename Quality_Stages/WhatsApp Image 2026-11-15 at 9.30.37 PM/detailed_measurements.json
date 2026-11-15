@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "image": {
+    "path": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM.jpeg",
+    "filename": "WhatsApp Image 2026-11-15 at 9.30.37 PM.jpeg",
+    "original_dimensions": {
+      "width": 1200,
+      "height": 1600
+    },
+    "decoded_dimensions": {
+      "width": 1200,
+      "height": 1600
+    },
+    "exif_orientation": {
+      "value": null,
+      "method": "OpenCV decoder does not expose EXIF orientation",
+      "status": "unavailable",
+      "reason": "No EXIF parser installed."
+    },
+    "orientation_applied_during_decoding": false,
+    "coordinate_convention": "x right, y down; origin at top-left; decoded stored pixel coordinates"
+  },
+  "libraries": {
+    "opencv": "4.13.0",
+    "numpy": "2.4.3"
+  },
+  "analysis_configuration": {
+    "laplacian_kernel_size": 3,
+    "regional_overlap_fraction_of_window": 0.2,
+    "regional_window_formula": "height/(3-2*overlap); stride=window*(1-overlap)",
+    "dark_pixel_cutoff_inclusive": 5,
+    "bright_pixel_cutoff_inclusive": 250,
+    "measurements_use_native_resolution": true,
+    "boundary_preview_max_dimension": 1200,
+    "boundary_corners_mapped_to_native_coordinates": true
+  },
+  "global_measurements": {
+    "sharpness": {
+      "value": 2347.334974443733,
+      "method": "Variance of grayscale cv2.Laplacian(gray, CV_64F, ksize=3)",
+      "status": "measured",
+      "units": "intensity^2"
+    },
+    "contrast": {
+      "grayscale_standard_deviation": {
+        "value": 62.41824254869187,
+        "method": "Population standard deviation; intensity-spread proxy, not text-to-paper contrast",
+        "status": "measured",
+        "units": "intensity levels"
+      },
+      "p95_minus_p5": {
+        "value": 187.0,
+        "method": "Grayscale P95 minus P5; intensity-spread proxy, not text-to-paper contrast",
+        "status": "measured",
+        "units": "intensity levels"
+      }
+    },
+    "lighting": {
+      "mean": {
+        "value": 111.7577390625,
+        "method": "Mean grayscale brightness",
+        "status": "measured",
+        "units": "8-bit intensity (0-255)"
+      },
+      "median": {
+        "value": 104.0,
+        "method": "Median grayscale brightness",
+        "status": "measured",
+        "units": "8-bit intensity (0-255)"
+      },
+      "p5": {
+        "value": 30.0,
+        "method": "Fifth percentile grayscale brightness",
+        "status": "measured",
+        "units": "8-bit intensity (0-255)"
+      },
+      "p50": {
+        "value": 104.0,
+        "method": "Fiftieth percentile grayscale brightness",
+        "status": "measured",
+        "units": "8-bit intensity (0-255)"
+      },
+      "p95": {
+        "value": 217.0,
+        "method": "Ninety-fifth percentile grayscale brightness",
+        "status": "measured",
+        "units": "8-bit intensity (0-255)"
+      },
+      "fraction_at_or_below_dark_cutoff": {
+        "value": 0.00031145833333333335,
+        "method": "Fraction of pixels <= configurable cutoff 5",
+        "status": "measured",
+        "units": "fraction"
+      },
+      "fraction_at_or_above_bright_cutoff": {
+        "value": 5e-05,
+        "method": "Fraction of pixels >= configurable cutoff 250",
+        "status": "measured",
+        "units": "fraction"
+      },
+      "regional_median_variation": {
+        "value": 14.854853303438128,
+        "method": "Population standard deviation of top/middle/bottom regional median brightness",
+        "status": "measured",
+        "units": "intensity levels"
+      }
+    },
+    "rotation_skew": {
+      "skew_angle": {
+        "value": 0.4307628672836293,
+        "method": "Median near-horizontal probabilistic Hough line angle; x right, y down, positive slopes down-right; outer 8% height excluded",
+        "status": "estimated",
+        "units": "degrees"
+      },
+      "evidence": {
+        "qualifying_line_count": 8,
+        "maximum_absolute_angle_degrees": 7,
+        "line_overlay": "06_line_candidates_visualization.png"
+      },
+      "upside_down_text_detection": {
+        "value": null,
+        "method": "Line angles do not establish upright text",
+        "status": "unavailable",
+        "reason": "No text-orientation classifier is implemented."
+      },
+      "deskew_applied": false
+    },
+    "resolution": {
+      "width": {
+        "value": 1200,
+        "method": "Decoded width",
+        "status": "measured",
+        "units": "pixels"
+      },
+      "height": {
+        "value": 1600,
+        "method": "Decoded height",
+        "status": "measured",
+        "units": "pixels"
+      },
+      "megapixels": {
+        "value": 1.92,
+        "method": "width*height/1,000,000",
+        "status": "measured",
+        "units": "MP"
+      },
+      "aspect_ratio": {
+        "value": 0.75,
+        "method": "width/height",
+        "status": "measured",
+        "units": "ratio"
+      },
+      "estimated_character_height": {
+        "value": null,
+        "method": "No defensible character-height method implemented",
+        "status": "unavailable",
+        "units": "pixels",
+        "reason": "Would require character detection; OCR is not used."
+      }
+    }
+  },
+  "regional_measurements": {
+    "top": {
+      "coordinates_xyxy": [
+        0,
+        0,
+        1200,
+        615
+      ],
+      "sharpness": {
+        "value": 1976.21615134551,
+        "method": "Variance of grayscale cv2.Laplacian(gray, CV_64F, ksize=3)",
+        "status": "measured",
+        "units": "intensity^2"
+      },
+      "contrast": {
+        "grayscale_standard_deviation": {
+          "value": 66.71258778793573,
+          "method": "Population standard deviation; intensity-spread proxy, not text-to-paper contrast",
+          "status": "measured",
+          "units": "intensity levels"
+        },
+        "p95_minus_p5": {
+          "value": 191.0,
+          "method": "Grayscale P95 minus P5; intensity-spread proxy, not text-to-paper contrast",
+          "status": "measured",
+          "units": "intensity levels"
+        }
+      },
+      "lighting": {
+        "mean": {
+          "value": 121.47409078590786,
+          "method": "Mean grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "median": {
+          "value": 126.0,
+          "method": "Median grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p5": {
+          "value": 32.0,
+          "method": "Fifth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p50": {
+          "value": 126.0,
+          "method": "Fiftieth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p95": {
+          "value": 223.0,
+          "method": "Ninety-fifth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "fraction_at_or_below_dark_cutoff": {
+          "value": 2.5745257452574526e-05,
+          "method": "Fraction of pixels <= configurable cutoff 5",
+          "status": "measured",
+          "units": "fraction"
+        },
+        "fraction_at_or_above_bright_cutoff": {
+          "value": 6.775067750677507e-06,
+          "method": "Fraction of pixels >= configurable cutoff 250",
+          "status": "measured",
+          "units": "fraction"
+        }
+      }
+    },
+    "middle": {
+      "coordinates_xyxy": [
+        0,
+        492,
+        1200,
+        1107
+      ],
+      "sharpness": {
+        "value": 4395.004950251276,
+        "method": "Variance of grayscale cv2.Laplacian(gray, CV_64F, ksize=3)",
+        "status": "measured",
+        "units": "intensity^2"
+      },
+      "contrast": {
+        "grayscale_standard_deviation": {
+          "value": 58.889632406969085,
+          "method": "Population standard deviation; intensity-spread proxy, not text-to-paper contrast",
+          "status": "measured",
+          "units": "intensity levels"
+        },
+        "p95_minus_p5": {
+          "value": 181.0,
+          "method": "Grayscale P95 minus P5; intensity-spread proxy, not text-to-paper contrast",
+          "status": "measured",
+          "units": "intensity levels"
+        }
+      },
+      "lighting": {
+        "mean": {
+          "value": 114.96208536585365,
+          "method": "Mean grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "median": {
+          "value": 125.0,
+          "method": "Median grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p5": {
+          "value": 36.0,
+          "method": "Fifth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p50": {
+          "value": 125.0,
+          "method": "Fiftieth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p95": {
+          "value": 217.0,
+          "method": "Ninety-fifth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "fraction_at_or_below_dark_cutoff": {
+          "value": 0.0004227642276422764,
+          "method": "Fraction of pixels <= configurable cutoff 5",
+          "status": "measured",
+          "units": "fraction"
+        },
+        "fraction_at_or_above_bright_cutoff": {
+          "value": 0.0001233062330623306,
+          "method": "Fraction of pixels >= configurable cutoff 250",
+          "status": "measured",
+          "units": "fraction"
+        }
+      }
+    },
+    "bottom": {
+      "coordinates_xyxy": [
+        0,
+        984,
+        1200,
+        1599
+      ],
+      "sharpness": {
+        "value": 1183.872622821153,
+        "method": "Variance of grayscale cv2.Laplacian(gray, CV_64F, ksize=3)",
+        "status": "measured",
+        "units": "intensity^2"
+      },
+      "contrast": {
+        "grayscale_standard_deviation": {
+          "value": 57.6421744841431,
+          "method": "Population standard deviation; intensity-spread proxy, not text-to-paper contrast",
+          "status": "measured",
+          "units": "intensity levels"
+        },
+        "p95_minus_p5": {
+          "value": 165.0,
+          "method": "Grayscale P95 minus P5; intensity-spread proxy, not text-to-paper contrast",
+          "status": "measured",
+          "units": "intensity levels"
+        }
+      },
+      "lighting": {
+        "mean": {
+          "value": 100.13421409214092,
+          "method": "Mean grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "median": {
+          "value": 94.0,
+          "method": "Median grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p5": {
+          "value": 26.0,
+          "method": "Fifth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p50": {
+          "value": 94.0,
+          "method": "Fiftieth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "p95": {
+          "value": 191.0,
+          "method": "Ninety-fifth percentile grayscale brightness",
+          "status": "measured",
+          "units": "8-bit intensity (0-255)"
+        },
+        "fraction_at_or_below_dark_cutoff": {
+          "value": 0.0003929539295392954,
+          "method": "Fraction of pixels <= configurable cutoff 5",
+          "status": "measured",
+          "units": "fraction"
+        },
+        "fraction_at_or_above_bright_cutoff": {
+          "value": 0.0001233062330623306,
+          "method": "Fraction of pixels >= configurable cutoff 250",
+          "status": "measured",
+          "units": "fraction"
+        }
+      }
+    }
+  },
+  "geometry": {
+    "perspective": {
+      "quadrilateral_corners": {
+        "value": null,
+        "method": "Conservative edge/contour quadrilateral candidate",
+        "status": "unavailable",
+        "units": "pixels",
+        "reason": "No reliable bill boundary candidate."
+      },
+      "edge_lengths": {
+        "value": null,
+        "method": "Euclidean distances between corners",
+        "status": "unavailable",
+        "units": "pixels",
+        "reason": "No reliable bill boundary candidate."
+      },
+      "opposite_edge_ratios": {
+        "value": null,
+        "method": "Opposite edge length ratios",
+        "status": "unavailable",
+        "units": "ratio",
+        "reason": "No reliable bill boundary candidate."
+      }
+    },
+    "framing": {
+      "bounding_box_xyxy": {
+        "value": null,
+        "method": "Candidate boundary bounds",
+        "status": "unavailable",
+        "units": "pixels",
+        "reason": "No reliable bill boundary candidate."
+      },
+      "area_fraction": {
+        "value": null,
+        "method": "Boundary area / image area",
+        "status": "unavailable",
+        "units": "fraction",
+        "reason": "No reliable bill boundary candidate."
+      },
+      "touches_image_boundary": {
+        "value": null,
+        "method": "Candidate corners compared with image bounds",
+        "status": "unavailable",
+        "reason": "No reliable bill boundary candidate."
+      },
+      "text_clipping": {
+        "value": null,
+        "method": "Not inferred from boundary contact",
+        "status": "unavailable",
+        "reason": "Text clipping needs additional evidence."
+      },
+      "content_completeness": {
+        "value": null,
+        "method": "Not assessed",
+        "status": "unavailable",
+        "reason": "Partial receipt photographs can be valid; completeness is not assessed."
+      }
+    }
+  },
+  "warnings_and_limitations": [
+    "Measurements are uncalibrated; no acceptance decision is made.",
+    "Global and regional pixels may include background; horizontal regions are spatial bands, not semantic bill sections.",
+    "Lighting fractions do not identify glare, underexposure, or lost information.",
+    "No image enhancement, deskew, rotation, warp, or crop is applied.",
+    "Boundary detection is a candidate heuristic and may not represent the bill.",
+    "OpenCV IMREAD_COLOR preserves stored orientation and does not apply EXIF orientation."
+  ],
+  "calibration_status": "uncalibrated",
+  "acceptance_decision": null,
+  "debug_outputs": {
+    "directory": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Quality_Stages\\WhatsApp Image 2026-11-15 at 9.30.37 PM",
+    "visualizations_only": true,
+    "files": [
+      "01_analysis_input.png",
+      "02_grayscale.png",
+      "03_laplacian_response_visualization.png",
+      "04_regions_visualization.png",
+      "06_line_candidates_visualization.png"
+    ]
+  }
+}

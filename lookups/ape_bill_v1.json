@@ -1,0 +1,170 @@
+{
+  "version": "ape_bill_v1",
+  "provider_template": "Andhra Pradesh supplied bill; Telangana not supported",
+  "geometry": {
+    "minimum_vertical_overlap": 0.5,
+    "maximum_gap_heights": 10,
+    "split_label_gap_heights": 1.5
+  },
+  "billing_assumptions": {
+    "simple_reading_difference_supported": false
+  },
+  "fields": [
+    {
+      "id": "bill_date",
+      "labels": [
+        "BILL DATE"
+      ],
+      "type": "date",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "present_kwh",
+      "labels": [
+        "PRES KWH"
+      ],
+      "type": "decimal",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": true
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "previous_kwh",
+      "labels": [
+        "PREV KWH"
+      ],
+      "type": "decimal",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": true
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "units_consumed",
+      "labels": [
+        "BILLED UNITS"
+      ],
+      "type": "decimal",
+      "required_for": [
+        "consumption_summary"
+      ],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "energy_charges",
+      "labels": [
+        "ENERGY CHRG"
+      ],
+      "type": "decimal",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "fixed_charges",
+      "labels": [
+        "FIXED CHRG"
+      ],
+      "type": "decimal",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "customer_charges",
+      "labels": [
+        "CUST CHRG"
+      ],
+      "type": "decimal",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "net_payable",
+      "labels": [
+        "NET BILL"
+      ],
+      "type": "decimal",
+      "required_for": [
+        "payment_summary"
+      ],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "due_date",
+      "labels": [
+        "DUE DATE"
+      ],
+      "type": "date",
+      "required_for": [
+        "payment_summary"
+      ],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    },
+    {
+      "id": "meter_multiplier",
+      "labels": [
+        "MF"
+      ],
+      "type": "decimal",
+      "required_for": [],
+      "extraction": {
+        "strategy": "same_row_right",
+        "meter_row": false
+      },
+      "validation_rules": [
+        "format"
+      ]
+    }
+  ]
+}
