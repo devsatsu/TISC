@@ -37,3 +37,11 @@ or support for other bill templates. Partial photos are processed independently.
 
 First install required network approval; first inference required model-cache
 access. Both completed successfully. No source images were modified.
+
+## Connected backend verification (17 November 2026)
+
+The center-alignment row heuristic resolves CB1 BILLED UNITS as 572. Saved OCR replay now extracts all 10 configured fields. All 11 focused extraction/backend tests pass, including merge conflicts, numeric equivalence, uncertainty propagation, API health and invalid uploads.
+
+Actual OCR on the three WhatsApp partial photos completed without processing errors. The merged result retains present_kwh=5343 and net_payable=4530.36. Bill date, previous reading and multiplier are not found; units, charges and due date need review. The result correctly remains needs_review. It does not claim complete bill coverage. Telugu explanation sections explicitly describe unavailable values rather than substituting zeros or guessing.
+
+Earlier sample results above describe the previous row heuristic. The current results are under Backend_Results. General OCR accuracy across other templates is not established.

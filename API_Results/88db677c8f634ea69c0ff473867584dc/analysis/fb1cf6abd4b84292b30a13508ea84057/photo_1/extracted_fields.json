@@ -1,0 +1,648 @@
+{
+  "photo_id": "photo_1",
+  "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+  "fields": {
+    "bill_date": {
+      "value": "2026-07-04",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "BILL DATE",
+      "raw_value": "04-07-2026",
+      "ocr_box_ids": [
+        "box_0001",
+        "box_0003"
+      ],
+      "label_coordinates": [
+        [
+          34.0,
+          31.0,
+          118.0,
+          55.0
+        ]
+      ],
+      "value_coordinates": [
+        207.0,
+        39.0,
+        296.0,
+        61.0
+      ],
+      "ocr_confidence": 0.9989719390869141,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "2026-07-04",
+          "raw_label": "BILL DATE",
+          "raw_value": "04-07-2026",
+          "label_box_ids": [
+            "box_0001"
+          ],
+          "value_box_id": "box_0003",
+          "label_coordinates": [
+            [
+              34.0,
+              31.0,
+              118.0,
+              55.0
+            ]
+          ],
+          "value_coordinates": [
+            207.0,
+            39.0,
+            296.0,
+            61.0
+          ],
+          "ocr_confidence": 0.9989719390869141,
+          "error": null
+        }
+      ]
+    },
+    "present_kwh": {
+      "value": "5343",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "PRES KWH",
+      "raw_value": "5343 04-07-2026",
+      "ocr_box_ids": [
+        "box_0027",
+        "box_0029"
+      ],
+      "label_coordinates": [
+        [
+          34.0,
+          339.0,
+          110.0,
+          363.0
+        ]
+      ],
+      "value_coordinates": [
+        148.0,
+        342.0,
+        288.0,
+        367.0
+      ],
+      "ocr_confidence": 0.9641115665435791,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "5343",
+          "raw_label": "PRES KWH",
+          "raw_value": "5343 04-07-2026",
+          "label_box_ids": [
+            "box_0027"
+          ],
+          "value_box_id": "box_0029",
+          "label_coordinates": [
+            [
+              34.0,
+              339.0,
+              110.0,
+              363.0
+            ]
+          ],
+          "value_coordinates": [
+            148.0,
+            342.0,
+            288.0,
+            367.0
+          ],
+          "ocr_confidence": 0.9641115665435791,
+          "error": null
+        }
+      ]
+    },
+    "previous_kwh": {
+      "value": "4771",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "PREV KWH",
+      "raw_value": "4771 04-06-2026",
+      "ocr_box_ids": [
+        "box_0030",
+        "box_0031"
+      ],
+      "label_coordinates": [
+        [
+          36.0,
+          357.0,
+          110.0,
+          379.0
+        ]
+      ],
+      "value_coordinates": [
+        148.0,
+        359.0,
+        288.0,
+        385.0
+      ],
+      "ocr_confidence": 0.9929776787757874,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "4771",
+          "raw_label": "PREV KWH",
+          "raw_value": "4771 04-06-2026",
+          "label_box_ids": [
+            "box_0030"
+          ],
+          "value_box_id": "box_0031",
+          "label_coordinates": [
+            [
+              36.0,
+              357.0,
+              110.0,
+              379.0
+            ]
+          ],
+          "value_coordinates": [
+            148.0,
+            359.0,
+            288.0,
+            385.0
+          ],
+          "ocr_confidence": 0.9929776787757874,
+          "error": null
+        }
+      ]
+    },
+    "units_consumed": {
+      "value": "572",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "BILLED UNITS",
+      "raw_value": "572",
+      "ocr_box_ids": [
+        "box_0038",
+        "box_0039"
+      ],
+      "label_coordinates": [
+        [
+          34.0,
+          427.0,
+          145.0,
+          450.0
+        ]
+      ],
+      "value_coordinates": [
+        270.0,
+        433.0,
+        301.0,
+        457.0
+      ],
+      "ocr_confidence": 0.93653804063797,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "572",
+          "raw_label": "BILLED UNITS",
+          "raw_value": "572",
+          "label_box_ids": [
+            "box_0038"
+          ],
+          "value_box_id": "box_0039",
+          "label_coordinates": [
+            [
+              34.0,
+              427.0,
+              145.0,
+              450.0
+            ]
+          ],
+          "value_coordinates": [
+            270.0,
+            433.0,
+            301.0,
+            457.0
+          ],
+          "ocr_confidence": 0.93653804063797,
+          "error": null
+        }
+      ]
+    },
+    "energy_charges": {
+      "value": "4409.75",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "ENERGY CHRG",
+      "raw_value": "4409.75",
+      "ocr_box_ids": [
+        "box_0051",
+        "box_0052"
+      ],
+      "label_coordinates": [
+        [
+          36.0,
+          532.0,
+          137.0,
+          553.0
+        ]
+      ],
+      "value_coordinates": [
+        237.0,
+        533.0,
+        305.0,
+        558.0
+      ],
+      "ocr_confidence": 0.992702841758728,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "4409.75",
+          "raw_label": "ENERGY CHRG",
+          "raw_value": "4409.75",
+          "label_box_ids": [
+            "box_0051"
+          ],
+          "value_box_id": "box_0052",
+          "label_coordinates": [
+            [
+              36.0,
+              532.0,
+              137.0,
+              553.0
+            ]
+          ],
+          "value_coordinates": [
+            237.0,
+            533.0,
+            305.0,
+            558.0
+          ],
+          "ocr_confidence": 0.992702841758728,
+          "error": null
+        }
+      ]
+    },
+    "fixed_charges": {
+      "value": "50.00",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "FIXED CHRG",
+      "raw_value": "50.00",
+      "ocr_box_ids": [
+        "box_0053",
+        "box_0054"
+      ],
+      "label_coordinates": [
+        [
+          34.0,
+          548.0,
+          129.0,
+          572.0
+        ]
+      ],
+      "value_coordinates": [
+        253.0,
+        552.0,
+        305.0,
+        575.0
+      ],
+      "ocr_confidence": 0.965165913105011,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "50.00",
+          "raw_label": "FIXED CHRG",
+          "raw_value": "50.00",
+          "label_box_ids": [
+            "box_0053"
+          ],
+          "value_box_id": "box_0054",
+          "label_coordinates": [
+            [
+              34.0,
+              548.0,
+              129.0,
+              572.0
+            ]
+          ],
+          "value_coordinates": [
+            253.0,
+            552.0,
+            305.0,
+            575.0
+          ],
+          "ocr_confidence": 0.965165913105011,
+          "error": null
+        }
+      ]
+    },
+    "customer_charges": {
+      "value": "55.00",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "CUST CHRG",
+      "raw_value": "55.00",
+      "ocr_box_ids": [
+        "box_0055",
+        "box_0056"
+      ],
+      "label_coordinates": [
+        [
+          34.0,
+          565.0,
+          121.0,
+          589.0
+        ]
+      ],
+      "value_coordinates": [
+        255.0,
+        570.0,
+        304.0,
+        592.0
+      ],
+      "ocr_confidence": 0.9362028241157532,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "55.00",
+          "raw_label": "CUST CHRG",
+          "raw_value": "55.00",
+          "label_box_ids": [
+            "box_0055"
+          ],
+          "value_box_id": "box_0056",
+          "label_coordinates": [
+            [
+              34.0,
+              565.0,
+              121.0,
+              589.0
+            ]
+          ],
+          "value_coordinates": [
+            255.0,
+            570.0,
+            304.0,
+            592.0
+          ],
+          "ocr_confidence": 0.9362028241157532,
+          "error": null
+        }
+      ]
+    },
+    "net_payable": {
+      "value": "4530.36",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "NET BILL",
+      "raw_value": "4530.36",
+      "ocr_box_ids": [
+        "box_0098",
+        "box_0099"
+      ],
+      "label_coordinates": [
+        [
+          31.0,
+          968.0,
+          114.0,
+          1009.0
+        ]
+      ],
+      "value_coordinates": [
+        237.0,
+        966.0,
+        310.0,
+        1008.0
+      ],
+      "ocr_confidence": 0.9938177466392517,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "4530.36",
+          "raw_label": "NET BILL",
+          "raw_value": "4530.36",
+          "label_box_ids": [
+            "box_0098"
+          ],
+          "value_box_id": "box_0099",
+          "label_coordinates": [
+            [
+              31.0,
+              968.0,
+              114.0,
+              1009.0
+            ]
+          ],
+          "value_coordinates": [
+            237.0,
+            966.0,
+            310.0,
+            1008.0
+          ],
+          "ocr_confidence": 0.9938177466392517,
+          "error": null
+        }
+      ]
+    },
+    "due_date": {
+      "value": "2026-07-18",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "DUE DATE",
+      "raw_value": "18-07-2026",
+      "ocr_box_ids": [
+        "box_0100",
+        "box_0101"
+      ],
+      "label_coordinates": [
+        [
+          32.0,
+          1006.0,
+          114.0,
+          1033.0
+        ]
+      ],
+      "value_coordinates": [
+        212.0,
+        1004.0,
+        309.0,
+        1030.0
+      ],
+      "ocr_confidence": 0.9999250173568726,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "2026-07-18",
+          "raw_label": "DUE DATE",
+          "raw_value": "18-07-2026",
+          "label_box_ids": [
+            "box_0100"
+          ],
+          "value_box_id": "box_0101",
+          "label_coordinates": [
+            [
+              32.0,
+              1006.0,
+              114.0,
+              1033.0
+            ]
+          ],
+          "value_coordinates": [
+            212.0,
+            1004.0,
+            309.0,
+            1030.0
+          ],
+          "ocr_confidence": 0.9999250173568726,
+          "error": null
+        }
+      ]
+    },
+    "meter_multiplier": {
+      "value": "1.0",
+      "status": "extracted",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\API_Results\\88db677c8f634ea69c0ff473867584dc\\photo_1.image",
+      "raw_label": "MF:",
+      "raw_value": "1.0",
+      "ocr_box_ids": [
+        "box_0024"
+      ],
+      "label_coordinates": [
+        [
+          243.0,
+          297.0,
+          302.0,
+          322.0
+        ]
+      ],
+      "value_coordinates": [
+        243.0,
+        297.0,
+        302.0,
+        322.0
+      ],
+      "ocr_confidence": 0.9890231490135193,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ],
+      "review_reason": null,
+      "candidates": [
+        {
+          "value": "1.0",
+          "raw_label": "MF:",
+          "raw_value": "1.0",
+          "label_box_ids": [
+            "box_0024"
+          ],
+          "value_box_id": "box_0024",
+          "label_coordinates": [
+            [
+              243.0,
+              297.0,
+              302.0,
+              322.0
+            ]
+          ],
+          "value_coordinates": [
+            243.0,
+            297.0,
+            302.0,
+            322.0
+          ],
+          "ocr_confidence": 0.9890231490135193,
+          "error": null
+        }
+      ]
+    }
+  },
+  "validation": {
+    "feature_completeness": {
+      "payment_summary": {
+        "complete": true,
+        "missing_fields": []
+      },
+      "consumption_summary": {
+        "complete": true,
+        "missing_fields": []
+      }
+    },
+    "consumption_arithmetic": {
+      "status": "not_applicable",
+      "reason": "Requires all readings, explicit multiplier, and confirmed simple-difference billing assumptions."
+    },
+    "amount_reconciliation": {
+      "status": "not_applicable",
+      "reason": "Other charges, credits and adjustments are not fully modeled."
+    },
+    "review_items": [],
+    "retake_required": null,
+    "note": "Format validity is not OCR correctness. Missing fields may be outside this partial photo."
+  }
+}

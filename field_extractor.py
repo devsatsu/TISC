@@ -23,6 +23,8 @@ def same_row(a, b, settings):
     ax, ay, ar, ab = a["bbox"]
     bx, by, br, bb = b["bbox"]
     height = max(1, min(ab-ay, bb-by))
+    if abs((ay+ab-by-bb)/2)/height > settings.get("maximum_center_offset_heights", .4):
+        return False
     return (min(ab, bb)-max(ay, by))/height >= settings["minimum_vertical_overlap"] and -height*.2 <= bx-ar <= settings["maximum_gap_heights"]*height
 
 

@@ -1,0 +1,882 @@
+{
+  "schema_version": "2.0",
+  "job_id": "fc43959fe92d4d7f8ee0f0f2ee0acf30",
+  "lookup_version": "ape_bill_v1",
+  "status": "completed",
+  "photos": [
+    {
+      "photo_id": "photo_1",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg"
+    }
+  ],
+  "fields": {
+    "bill_date": {
+      "value": "2026-07-04",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "2026-07-04",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "BILL DATE",
+          "raw_value": "04-07-2026",
+          "ocr_box_ids": [
+            "box_0001",
+            "box_0003"
+          ],
+          "label_coordinates": [
+            [
+              34.0,
+              31.0,
+              118.0,
+              55.0
+            ]
+          ],
+          "value_coordinates": [
+            207.0,
+            39.0,
+            296.0,
+            61.0
+          ],
+          "ocr_confidence": 0.9989719390869141,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "2026-07-04",
+              "raw_label": "BILL DATE",
+              "raw_value": "04-07-2026",
+              "label_box_ids": [
+                "box_0001"
+              ],
+              "value_box_id": "box_0003",
+              "label_coordinates": [
+                [
+                  34.0,
+                  31.0,
+                  118.0,
+                  55.0
+                ]
+              ],
+              "value_coordinates": [
+                207.0,
+                39.0,
+                296.0,
+                61.0
+              ],
+              "ocr_confidence": 0.9989719390869141,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "present_kwh": {
+      "value": "5343",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "5343",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "PRES KWH",
+          "raw_value": "5343 04-07-2026",
+          "ocr_box_ids": [
+            "box_0027",
+            "box_0029"
+          ],
+          "label_coordinates": [
+            [
+              34.0,
+              339.0,
+              110.0,
+              363.0
+            ]
+          ],
+          "value_coordinates": [
+            148.0,
+            342.0,
+            288.0,
+            367.0
+          ],
+          "ocr_confidence": 0.9641115665435791,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "5343",
+              "raw_label": "PRES KWH",
+              "raw_value": "5343 04-07-2026",
+              "label_box_ids": [
+                "box_0027"
+              ],
+              "value_box_id": "box_0029",
+              "label_coordinates": [
+                [
+                  34.0,
+                  339.0,
+                  110.0,
+                  363.0
+                ]
+              ],
+              "value_coordinates": [
+                148.0,
+                342.0,
+                288.0,
+                367.0
+              ],
+              "ocr_confidence": 0.9641115665435791,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "previous_kwh": {
+      "value": "4771",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "4771",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "PREV KWH",
+          "raw_value": "4771 04-06-2026",
+          "ocr_box_ids": [
+            "box_0030",
+            "box_0031"
+          ],
+          "label_coordinates": [
+            [
+              36.0,
+              357.0,
+              110.0,
+              379.0
+            ]
+          ],
+          "value_coordinates": [
+            148.0,
+            359.0,
+            288.0,
+            385.0
+          ],
+          "ocr_confidence": 0.9929776787757874,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "4771",
+              "raw_label": "PREV KWH",
+              "raw_value": "4771 04-06-2026",
+              "label_box_ids": [
+                "box_0030"
+              ],
+              "value_box_id": "box_0031",
+              "label_coordinates": [
+                [
+                  36.0,
+                  357.0,
+                  110.0,
+                  379.0
+                ]
+              ],
+              "value_coordinates": [
+                148.0,
+                359.0,
+                288.0,
+                385.0
+              ],
+              "ocr_confidence": 0.9929776787757874,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "units_consumed": {
+      "value": "572",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "572",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "BILLED UNITS",
+          "raw_value": "572",
+          "ocr_box_ids": [
+            "box_0038",
+            "box_0039"
+          ],
+          "label_coordinates": [
+            [
+              34.0,
+              427.0,
+              145.0,
+              450.0
+            ]
+          ],
+          "value_coordinates": [
+            270.0,
+            433.0,
+            301.0,
+            457.0
+          ],
+          "ocr_confidence": 0.93653804063797,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "572",
+              "raw_label": "BILLED UNITS",
+              "raw_value": "572",
+              "label_box_ids": [
+                "box_0038"
+              ],
+              "value_box_id": "box_0039",
+              "label_coordinates": [
+                [
+                  34.0,
+                  427.0,
+                  145.0,
+                  450.0
+                ]
+              ],
+              "value_coordinates": [
+                270.0,
+                433.0,
+                301.0,
+                457.0
+              ],
+              "ocr_confidence": 0.93653804063797,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "energy_charges": {
+      "value": "4409.75",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "4409.75",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "ENERGY CHRG",
+          "raw_value": "4409.75",
+          "ocr_box_ids": [
+            "box_0051",
+            "box_0052"
+          ],
+          "label_coordinates": [
+            [
+              36.0,
+              532.0,
+              137.0,
+              553.0
+            ]
+          ],
+          "value_coordinates": [
+            237.0,
+            533.0,
+            305.0,
+            558.0
+          ],
+          "ocr_confidence": 0.992702841758728,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "4409.75",
+              "raw_label": "ENERGY CHRG",
+              "raw_value": "4409.75",
+              "label_box_ids": [
+                "box_0051"
+              ],
+              "value_box_id": "box_0052",
+              "label_coordinates": [
+                [
+                  36.0,
+                  532.0,
+                  137.0,
+                  553.0
+                ]
+              ],
+              "value_coordinates": [
+                237.0,
+                533.0,
+                305.0,
+                558.0
+              ],
+              "ocr_confidence": 0.992702841758728,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "fixed_charges": {
+      "value": "50.00",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "50.00",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "FIXED CHRG",
+          "raw_value": "50.00",
+          "ocr_box_ids": [
+            "box_0053",
+            "box_0054"
+          ],
+          "label_coordinates": [
+            [
+              34.0,
+              548.0,
+              129.0,
+              572.0
+            ]
+          ],
+          "value_coordinates": [
+            253.0,
+            552.0,
+            305.0,
+            575.0
+          ],
+          "ocr_confidence": 0.965165913105011,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "50.00",
+              "raw_label": "FIXED CHRG",
+              "raw_value": "50.00",
+              "label_box_ids": [
+                "box_0053"
+              ],
+              "value_box_id": "box_0054",
+              "label_coordinates": [
+                [
+                  34.0,
+                  548.0,
+                  129.0,
+                  572.0
+                ]
+              ],
+              "value_coordinates": [
+                253.0,
+                552.0,
+                305.0,
+                575.0
+              ],
+              "ocr_confidence": 0.965165913105011,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "customer_charges": {
+      "value": "55.00",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "55.00",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "CUST CHRG",
+          "raw_value": "55.00",
+          "ocr_box_ids": [
+            "box_0055",
+            "box_0056"
+          ],
+          "label_coordinates": [
+            [
+              34.0,
+              565.0,
+              121.0,
+              589.0
+            ]
+          ],
+          "value_coordinates": [
+            255.0,
+            570.0,
+            304.0,
+            592.0
+          ],
+          "ocr_confidence": 0.9362028241157532,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "55.00",
+              "raw_label": "CUST CHRG",
+              "raw_value": "55.00",
+              "label_box_ids": [
+                "box_0055"
+              ],
+              "value_box_id": "box_0056",
+              "label_coordinates": [
+                [
+                  34.0,
+                  565.0,
+                  121.0,
+                  589.0
+                ]
+              ],
+              "value_coordinates": [
+                255.0,
+                570.0,
+                304.0,
+                592.0
+              ],
+              "ocr_confidence": 0.9362028241157532,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "net_payable": {
+      "value": "4530.36",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "4530.36",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "NET BILL",
+          "raw_value": "4530.36",
+          "ocr_box_ids": [
+            "box_0098",
+            "box_0099"
+          ],
+          "label_coordinates": [
+            [
+              31.0,
+              968.0,
+              114.0,
+              1009.0
+            ]
+          ],
+          "value_coordinates": [
+            237.0,
+            966.0,
+            310.0,
+            1008.0
+          ],
+          "ocr_confidence": 0.9938177466392517,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "4530.36",
+              "raw_label": "NET BILL",
+              "raw_value": "4530.36",
+              "label_box_ids": [
+                "box_0098"
+              ],
+              "value_box_id": "box_0099",
+              "label_coordinates": [
+                [
+                  31.0,
+                  968.0,
+                  114.0,
+                  1009.0
+                ]
+              ],
+              "value_coordinates": [
+                237.0,
+                966.0,
+                310.0,
+                1008.0
+              ],
+              "ocr_confidence": 0.9938177466392517,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "due_date": {
+      "value": "2026-07-18",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "2026-07-18",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "DUE DATE",
+          "raw_value": "18-07-2026",
+          "ocr_box_ids": [
+            "box_0100",
+            "box_0101"
+          ],
+          "label_coordinates": [
+            [
+              32.0,
+              1006.0,
+              114.0,
+              1033.0
+            ]
+          ],
+          "value_coordinates": [
+            212.0,
+            1004.0,
+            309.0,
+            1030.0
+          ],
+          "ocr_confidence": 0.9999250173568726,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "2026-07-18",
+              "raw_label": "DUE DATE",
+              "raw_value": "18-07-2026",
+              "label_box_ids": [
+                "box_0100"
+              ],
+              "value_box_id": "box_0101",
+              "label_coordinates": [
+                [
+                  32.0,
+                  1006.0,
+                  114.0,
+                  1033.0
+                ]
+              ],
+              "value_coordinates": [
+                212.0,
+                1004.0,
+                309.0,
+                1030.0
+              ],
+              "ocr_confidence": 0.9999250173568726,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    },
+    "meter_multiplier": {
+      "value": "1.0",
+      "status": "extracted",
+      "evidence": [
+        {
+          "photo_id": "photo_1",
+          "value": "1.0",
+          "status": "extracted",
+          "matching_method": "exact_alias_and_row_geometry",
+          "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\CB1.jpeg",
+          "raw_label": "MF:",
+          "raw_value": "1.0",
+          "ocr_box_ids": [
+            "box_0024"
+          ],
+          "label_coordinates": [
+            [
+              243.0,
+              297.0,
+              302.0,
+              322.0
+            ]
+          ],
+          "value_coordinates": [
+            243.0,
+            297.0,
+            302.0,
+            322.0
+          ],
+          "ocr_confidence": 0.9890231490135193,
+          "validation_results": [
+            {
+              "check": "format",
+              "status": "passed",
+              "reason": "Parsed format does not establish OCR correctness."
+            }
+          ],
+          "review_reason": null,
+          "candidates": [
+            {
+              "value": "1.0",
+              "raw_label": "MF:",
+              "raw_value": "1.0",
+              "label_box_ids": [
+                "box_0024"
+              ],
+              "value_box_id": "box_0024",
+              "label_coordinates": [
+                [
+                  243.0,
+                  297.0,
+                  302.0,
+                  322.0
+                ]
+              ],
+              "value_coordinates": [
+                243.0,
+                297.0,
+                302.0,
+                322.0
+              ],
+              "ocr_confidence": 0.9890231490135193,
+              "error": null
+            }
+          ]
+        }
+      ],
+      "review_reason": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "passed",
+          "reason": "Parsed format does not establish OCR correctness."
+        }
+      ]
+    }
+  },
+  "validation": {
+    "feature_completeness": {
+      "payment_summary": {
+        "complete": true,
+        "missing_fields": []
+      },
+      "consumption_summary": {
+        "complete": true,
+        "missing_fields": []
+      }
+    },
+    "consumption_arithmetic": {
+      "status": "not_applicable",
+      "reason": "Requires all readings, explicit multiplier, and confirmed simple-difference billing assumptions."
+    },
+    "amount_reconciliation": {
+      "status": "not_applicable",
+      "reason": "Other charges, credits and adjustments are not fully modeled."
+    },
+    "review_items": [],
+    "retake_required": null,
+    "note": "Format validity is not OCR correctness. Missing fields may be outside this partial photo."
+  },
+  "explanation": {
+    "language": "te",
+    "title": "మీ విద్యుత్ బిల్లు వివరాలు",
+    "sections": [
+      {
+        "field": "bill_date",
+        "title": "బిల్లు తేదీ",
+        "text": "బిల్లు తేదీ: 04-07-2026. ఈ తేదీన బిల్లు జారీ అయింది.",
+        "requires_review": false
+      },
+      {
+        "field": "present_kwh",
+        "title": "ప్రస్తుత మీటర్ రీడింగ్",
+        "text": "ప్రస్తుత మీటర్ రీడింగ్: 5343. బిల్లులో నమోదైన ప్రస్తుత విద్యుత్ మీటర్ రీడింగ్.",
+        "requires_review": false
+      },
+      {
+        "field": "previous_kwh",
+        "title": "గత మీటర్ రీడింగ్",
+        "text": "గత మీటర్ రీడింగ్: 4771. బిల్లులో నమోదైన గత విద్యుత్ మీటర్ రీడింగ్.",
+        "requires_review": false
+      },
+      {
+        "field": "units_consumed",
+        "title": "వినియోగించిన యూనిట్లు",
+        "text": "వినియోగించిన యూనిట్లు: 572. ఈ బిల్లులో చూపించిన విద్యుత్ వినియోగం.",
+        "requires_review": false
+      },
+      {
+        "field": "energy_charges",
+        "title": "విద్యుత్ వినియోగ ఛార్జీలు",
+        "text": "విద్యుత్ వినియోగ ఛార్జీలు: ₹4409.75. విద్యుత్ వినియోగానికి బిల్లులో చూపించిన మొత్తం.",
+        "requires_review": false
+      },
+      {
+        "field": "fixed_charges",
+        "title": "స్థిర ఛార్జీలు",
+        "text": "స్థిర ఛార్జీలు: ₹50.00. బిల్లులో ప్రత్యేకంగా చూపించిన స్థిర ఛార్జీలు.",
+        "requires_review": false
+      },
+      {
+        "field": "customer_charges",
+        "title": "కస్టమర్ ఛార్జీలు",
+        "text": "కస్టమర్ ఛార్జీలు: ₹55.00. బిల్లులో చూపించిన కస్టమర్ సేవా ఛార్జీలు.",
+        "requires_review": false
+      },
+      {
+        "field": "net_payable",
+        "title": "చెల్లించవలసిన మొత్తం",
+        "text": "చెల్లించవలసిన మొత్తం: ₹4530.36. ఇతర ఛార్జీలు, సర్దుబాట్లతో కలిపి బిల్లులో చూపించిన తుది మొత్తం.",
+        "requires_review": false
+      },
+      {
+        "field": "due_date",
+        "title": "చెల్లింపు గడువు",
+        "text": "చెల్లింపు గడువు: 18-07-2026. బిల్లులో పేర్కొన్న చెల్లింపు చివరి తేదీ.",
+        "requires_review": false
+      },
+      {
+        "field": "meter_multiplier",
+        "title": "మీటర్ గుణకం",
+        "text": "మీటర్ గుణకం: 1.0. మీటర్ రీడింగ్ ఆధారంగా వినియోగాన్ని లెక్కించడానికి ఉపయోగించే గుణకం.",
+        "requires_review": false
+      }
+    ],
+    "notes": [
+      "ఇవి ఫోటోల నుంచి చదివిన వివరాలు. చెల్లించే ముందు అసలు బిల్లుతో సరిపోల్చండి.",
+      "ఇతర ఛార్జీలు, రాయితీలు, సర్దుబాట్లు ఉండవచ్చు. చూపించిన మూడు ఛార్జీలతో మాత్రమే మొత్తం లెక్కించలేదు."
+    ]
+  },
+  "errors": [],
+  "coverage": {
+    "same_bill": "user_supplied_grouping_not_verified",
+    "complete_bill": null
+  },
+  "retake_required": null
+}

@@ -1,0 +1,295 @@
+{
+  "photo_id": "photo_2",
+  "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+  "fields": {
+    "bill_date": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "present_kwh": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "previous_kwh": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "units_consumed": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "energy_charges": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "fixed_charges": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "customer_charges": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "net_payable": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "due_date": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    },
+    "meter_multiplier": {
+      "value": null,
+      "status": "not_found",
+      "matching_method": "exact_alias_and_row_geometry",
+      "source_photo": "C:\\Users\\Subhash Daparti\\Desktop\\TISC\\Current_Bills\\WhatsApp Image 2026-11-15 at 9.30.37 PM (1).jpeg",
+      "raw_label": null,
+      "raw_value": null,
+      "ocr_box_ids": [],
+      "label_coordinates": null,
+      "value_coordinates": null,
+      "ocr_confidence": null,
+      "validation_results": [
+        {
+          "check": "format",
+          "status": "not_applicable",
+          "reason": "No unambiguous parsed value."
+        }
+      ],
+      "review_reason": "Review the source photo and retained candidates; this is not evidence of poor image quality.",
+      "candidates": []
+    }
+  },
+  "validation": {
+    "feature_completeness": {
+      "payment_summary": {
+        "complete": false,
+        "missing_fields": [
+          "net_payable",
+          "due_date"
+        ]
+      },
+      "consumption_summary": {
+        "complete": false,
+        "missing_fields": [
+          "units_consumed"
+        ]
+      }
+    },
+    "consumption_arithmetic": {
+      "status": "not_applicable",
+      "reason": "Requires all readings, explicit multiplier, and confirmed simple-difference billing assumptions."
+    },
+    "amount_reconciliation": {
+      "status": "not_applicable",
+      "reason": "Other charges, credits and adjustments are not fully modeled."
+    },
+    "review_items": [
+      {
+        "field": "bill_date",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "present_kwh",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "previous_kwh",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "units_consumed",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "energy_charges",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "fixed_charges",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "customer_charges",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "net_payable",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "due_date",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      },
+      {
+        "field": "meter_multiplier",
+        "action": "Compare label and nearby value with source photograph.",
+        "reason": "not_found"
+      }
+    ],
+    "retake_required": null,
+    "note": "Format validity is not OCR correctness. Missing fields may be outside this partial photo."
+  }
+}
